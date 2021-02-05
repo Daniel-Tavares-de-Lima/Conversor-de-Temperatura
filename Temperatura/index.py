@@ -1,4 +1,3 @@
-# Conversor de Temperatura
 c = str(input("Qual medida você deseja converter?"))
 h = str(input("Celsius para Fahrenheit, digite: C"))
 ha = str(input("Fahrenheit para Celsius, digite: F"))
@@ -33,4 +32,3 @@ if c == "Kf":
 	z = ((kelva * 9) / 5) + 32
 	zx = z + 273
 	print(zx, "graus Fahrenheit")
-
