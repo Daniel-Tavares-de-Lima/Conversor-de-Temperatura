@@ -1,0 +1,4 @@
+Pergunta = float(input("Digite um valor:"))
+Pergunta2 = float(input("Digite outro valor:"))
+soma = pergunta + Pergunta2
+print ("A soma entre", Pergunta "e", Pergunta2 "é", soma)

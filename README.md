@@ -1,12 +1,6 @@
 # Conversor de Temperatura
-c = str(input("Qual medida você deseja converter?"))
-h = str(input("Celsius para Fahrenheit, digite: C"))
-ha = str(input("Fahrenheit para Celsius, digite: F"))
-haa = str(input("Celsius para Kelvin, digite: Ck"))
-ho = str(input("Kelvin para Celsius, digite: Kc")) 
-hoo = str(input("Fahrenheit para Kelvin, digite Fk"))
-hi = str(input("Kelvin para Fahrenheit, digite:Kf))
-hii = str(input("Digite aqui:"))
+
+c = str(input("Qual medida você deseja converter?\n Celsius para Fahrenheit, digite: C\n Fahrenheit para Celsius, digite: F\n Celsius para Kelvin, digite: Ck\n Kelvin para Celsius, digite: Kc\n Fahrenheit para Kelvin, digite: Fk\n Kelvin para Fahrenheit, digite Kf\n Digite aqui:"))
 if c == "C":
 	ce = float(input("Digite a temperatura em Celsius:"))
 	t = ((ce * 9) / 5) + 32
